@@ -1,0 +1,22 @@
+.mediaquery {
+  height: 200px;
+  width: 1200px;
+  background-color: red;
+}
+
+/* EXPLICAÇAO: VERSAO TABLET MUDA DE COR
+*/
+@media (max-width: 1000px) {
+  .mediaquery {
+    width: 500px;
+    background-color: blue;
+  }
+}
+/* QUANDOCHEGAR NA VERSAO MOBILE VAI TROCAR DE 
+COR TAMBEM */
+@media (max-width: 768px) {
+  .mediaquery {
+    width: 300px;
+    background-color: blue;
+  }
+}
